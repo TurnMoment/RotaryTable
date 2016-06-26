@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B48E9CE21D1EAFE400EDF239 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E9CE11D1EAFE400EDF239 /* main.m */; };
+		B48E9CE51D1EAFE400EDF239 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E9CE41D1EAFE400EDF239 /* AppDelegate.m */; };
+		B48E9CE81D1EAFE400EDF239 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E9CE71D1EAFE400EDF239 /* ViewController.m */; };
+		B48E9CEB1D1EAFE400EDF239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48E9CE91D1EAFE400EDF239 /* Main.storyboard */; };
+		B48E9CED1D1EAFE400EDF239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48E9CEC1D1EAFE400EDF239 /* Assets.xcassets */; };
+		B48E9CF01D1EAFE400EDF239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48E9CEE1D1EAFE400EDF239 /* LaunchScreen.storyboard */; };
+		B48E9CFB1D1EAFE400EDF239 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E9CFA1D1EAFE400EDF239 /* ____Tests.m */; };
+		B48E9D061D1EAFE400EDF239 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E9D051D1EAFE400EDF239 /* ____UITests.m */; };
+		B48E9D181D1EB06400EDF239 /* WheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E9D171D1EB06400EDF239 /* WheelView.m */; };
+		B48E9D1A1D1EB08900EDF239 /* WheelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B48E9D191D1EB08900EDF239 /* WheelView.xib */; };
+		B48E9D1D1D1EBA1D00EDF239 /* WheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B48E9D1C1D1EBA1D00EDF239 /* WheelButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B48E9CF71D1EAFE400EDF239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48E9CD51D1EAFE400EDF239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48E9CDC1D1EAFE400EDF239;
+			remoteInfo = "转盘学习";
+		};
+		B48E9D021D1EAFE400EDF239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B48E9CD51D1EAFE400EDF239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B48E9CDC1D1EAFE400EDF239;
+			remoteInfo = "转盘学习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B48E9CDD1D1EAFE400EDF239 /* 转盘学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "转盘学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48E9CE11D1EAFE400EDF239 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B48E9CE31D1EAFE400EDF239 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B48E9CE41D1EAFE400EDF239 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B48E9CE61D1EAFE400EDF239 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B48E9CE71D1EAFE400EDF239 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B48E9CEA1D1EAFE400EDF239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B48E9CEC1D1EAFE400EDF239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B48E9CEF1D1EAFE400EDF239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B48E9CF11D1EAFE400EDF239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48E9CF61D1EAFE400EDF239 /* 转盘学习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "转盘学习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48E9CFA1D1EAFE400EDF239 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		B48E9CFC1D1EAFE400EDF239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48E9D011D1EAFE400EDF239 /* 转盘学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "转盘学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48E9D051D1EAFE400EDF239 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		B48E9D071D1EAFE400EDF239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B48E9D161D1EB06400EDF239 /* WheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelView.h; sourceTree = "<group>"; };
+		B48E9D171D1EB06400EDF239 /* WheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelView.m; sourceTree = "<group>"; };
+		B48E9D191D1EB08900EDF239 /* WheelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WheelView.xib; sourceTree = "<group>"; };
+		B48E9D1B1D1EBA1D00EDF239 /* WheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelButton.h; sourceTree = "<group>"; };
+		B48E9D1C1D1EBA1D00EDF239 /* WheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48E9CDA1D1EAFE400EDF239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48E9CF31D1EAFE400EDF239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48E9CFE1D1EAFE400EDF239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B48E9CD41D1EAFE400EDF239 = {
+			isa = PBXGroup;
+			children = (
+				B48E9D1B1D1EBA1D00EDF239 /* WheelButton.h */,
+				B48E9D1C1D1EBA1D00EDF239 /* WheelButton.m */,
+				B48E9D161D1EB06400EDF239 /* WheelView.h */,
+				B48E9D171D1EB06400EDF239 /* WheelView.m */,
+				B48E9D191D1EB08900EDF239 /* WheelView.xib */,
+				B48E9CDF1D1EAFE400EDF239 /* 转盘学习 */,
+				B48E9CF91D1EAFE400EDF239 /* 转盘学习Tests */,
+				B48E9D041D1EAFE400EDF239 /* 转盘学习UITests */,
+				B48E9CDE1D1EAFE400EDF239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B48E9CDE1D1EAFE400EDF239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48E9CDD1D1EAFE400EDF239 /* 转盘学习.app */,
+				B48E9CF61D1EAFE400EDF239 /* 转盘学习Tests.xctest */,
+				B48E9D011D1EAFE400EDF239 /* 转盘学习UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48E9CDF1D1EAFE400EDF239 /* 转盘学习 */ = {
+			isa = PBXGroup;
+			children = (
+				B48E9CE31D1EAFE400EDF239 /* AppDelegate.h */,
+				B48E9CE41D1EAFE400EDF239 /* AppDelegate.m */,
+				B48E9CE61D1EAFE400EDF239 /* ViewController.h */,
+				B48E9CE71D1EAFE400EDF239 /* ViewController.m */,
+				B48E9CE91D1EAFE400EDF239 /* Main.storyboard */,
+				B48E9CEC1D1EAFE400EDF239 /* Assets.xcassets */,
+				B48E9CEE1D1EAFE400EDF239 /* LaunchScreen.storyboard */,
+				B48E9CF11D1EAFE400EDF239 /* Info.plist */,
+				B48E9CE01D1EAFE400EDF239 /* Supporting Files */,
+			);
+			path = "转盘学习";
+			sourceTree = "<group>";
+		};
+		B48E9CE01D1EAFE400EDF239 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B48E9CE11D1EAFE400EDF239 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B48E9CF91D1EAFE400EDF239 /* 转盘学习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B48E9CFA1D1EAFE400EDF239 /* ____Tests.m */,
+				B48E9CFC1D1EAFE400EDF239 /* Info.plist */,
+			);
+			path = "转盘学习Tests";
+			sourceTree = "<group>";
+		};
+		B48E9D041D1EAFE400EDF239 /* 转盘学习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B48E9D051D1EAFE400EDF239 /* ____UITests.m */,
+				B48E9D071D1EAFE400EDF239 /* Info.plist */,
+			);
+			path = "转盘学习UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48E9CDC1D1EAFE400EDF239 /* 转盘学习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48E9D0A1D1EAFE400EDF239 /* Build configuration list for PBXNativeTarget "转盘学习" */;
+			buildPhases = (
+				B48E9CD91D1EAFE400EDF239 /* Sources */,
+				B48E9CDA1D1EAFE400EDF239 /* Frameworks */,
+				B48E9CDB1D1EAFE400EDF239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "转盘学习";
+			productName = "转盘学习";
+			productReference = B48E9CDD1D1EAFE400EDF239 /* 转盘学习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B48E9CF51D1EAFE400EDF239 /* 转盘学习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48E9D0D1D1EAFE400EDF239 /* Build configuration list for PBXNativeTarget "转盘学习Tests" */;
+			buildPhases = (
+				B48E9CF21D1EAFE400EDF239 /* Sources */,
+				B48E9CF31D1EAFE400EDF239 /* Frameworks */,
+				B48E9CF41D1EAFE400EDF239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48E9CF81D1EAFE400EDF239 /* PBXTargetDependency */,
+			);
+			name = "转盘学习Tests";
+			productName = "转盘学习Tests";
+			productReference = B48E9CF61D1EAFE400EDF239 /* 转盘学习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B48E9D001D1EAFE400EDF239 /* 转盘学习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48E9D101D1EAFE400EDF239 /* Build configuration list for PBXNativeTarget "转盘学习UITests" */;
+			buildPhases = (
+				B48E9CFD1D1EAFE400EDF239 /* Sources */,
+				B48E9CFE1D1EAFE400EDF239 /* Frameworks */,
+				B48E9CFF1D1EAFE400EDF239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B48E9D031D1EAFE400EDF239 /* PBXTargetDependency */,
+			);
+			name = "转盘学习UITests";
+			productName = "转盘学习UITests";
+			productReference = B48E9D011D1EAFE400EDF239 /* 转盘学习UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48E9CD51D1EAFE400EDF239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ksfc;
+				TargetAttributes = {
+					B48E9CDC1D1EAFE400EDF239 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B48E9CF51D1EAFE400EDF239 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B48E9CDC1D1EAFE400EDF239;
+					};
+					B48E9D001D1EAFE400EDF239 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B48E9CDC1D1EAFE400EDF239;
+					};
+				};
+			};
+			buildConfigurationList = B48E9CD81D1EAFE400EDF239 /* Build configuration list for PBXProject "转盘学习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B48E9CD41D1EAFE400EDF239;
+			productRefGroup = B48E9CDE1D1EAFE400EDF239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48E9CDC1D1EAFE400EDF239 /* 转盘学习 */,
+				B48E9CF51D1EAFE400EDF239 /* 转盘学习Tests */,
+				B48E9D001D1EAFE400EDF239 /* 转盘学习UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48E9CDB1D1EAFE400EDF239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48E9CF01D1EAFE400EDF239 /* LaunchScreen.storyboard in Resources */,
+				B48E9CED1D1EAFE400EDF239 /* Assets.xcassets in Resources */,
+				B48E9D1A1D1EB08900EDF239 /* WheelView.xib in Resources */,
+				B48E9CEB1D1EAFE400EDF239 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48E9CF41D1EAFE400EDF239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48E9CFF1D1EAFE400EDF239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48E9CD91D1EAFE400EDF239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48E9CE81D1EAFE400EDF239 /* ViewController.m in Sources */,
+				B48E9D1D1D1EBA1D00EDF239 /* WheelButton.m in Sources */,
+				B48E9CE51D1EAFE400EDF239 /* AppDelegate.m in Sources */,
+				B48E9D181D1EB06400EDF239 /* WheelView.m in Sources */,
+				B48E9CE21D1EAFE400EDF239 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48E9CF21D1EAFE400EDF239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48E9CFB1D1EAFE400EDF239 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B48E9CFD1D1EAFE400EDF239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48E9D061D1EAFE400EDF239 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B48E9CF81D1EAFE400EDF239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48E9CDC1D1EAFE400EDF239 /* 转盘学习 */;
+			targetProxy = B48E9CF71D1EAFE400EDF239 /* PBXContainerItemProxy */;
+		};
+		B48E9D031D1EAFE400EDF239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B48E9CDC1D1EAFE400EDF239 /* 转盘学习 */;
+			targetProxy = B48E9D021D1EAFE400EDF239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B48E9CE91D1EAFE400EDF239 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48E9CEA1D1EAFE400EDF239 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B48E9CEE1D1EAFE400EDF239 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48E9CEF1D1EAFE400EDF239 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48E9D081D1EAFE400EDF239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B48E9D091D1EAFE400EDF239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B48E9D0B1D1EAFE400EDF239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "转盘学习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ksfc.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B48E9D0C1D1EAFE400EDF239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "转盘学习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ksfc.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B48E9D0E1D1EAFE400EDF239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "转盘学习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ksfc.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/转盘学习.app/转盘学习";
+			};
+			name = Debug;
+		};
+		B48E9D0F1D1EAFE400EDF239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "转盘学习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ksfc.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/转盘学习.app/转盘学习";
+			};
+			name = Release;
+		};
+		B48E9D111D1EAFE400EDF239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "转盘学习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ksfc.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "转盘学习";
+			};
+			name = Debug;
+		};
+		B48E9D121D1EAFE400EDF239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "转盘学习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ksfc.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "转盘学习";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48E9CD81D1EAFE400EDF239 /* Build configuration list for PBXProject "转盘学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48E9D081D1EAFE400EDF239 /* Debug */,
+				B48E9D091D1EAFE400EDF239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48E9D0A1D1EAFE400EDF239 /* Build configuration list for PBXNativeTarget "转盘学习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48E9D0B1D1EAFE400EDF239 /* Debug */,
+				B48E9D0C1D1EAFE400EDF239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B48E9D0D1D1EAFE400EDF239 /* Build configuration list for PBXNativeTarget "转盘学习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48E9D0E1D1EAFE400EDF239 /* Debug */,
+				B48E9D0F1D1EAFE400EDF239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B48E9D101D1EAFE400EDF239 /* Build configuration list for PBXNativeTarget "转盘学习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48E9D111D1EAFE400EDF239 /* Debug */,
+				B48E9D121D1EAFE400EDF239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B48E9CD51D1EAFE400EDF239 /* Project object */;
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WheelView">
+            <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LuckyBaseBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Chx-D0-xSo">
+                    <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LuckyRotateWheel" translatesAutoresizingMaskIntoConstraints="NO" id="Fqa-jJ-4IQ" userLabel="Center View">
+                    <rect key="frame" x="0.0" y="0.0" width="286" height="286"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iuU-ZT-gCe">
+                    <rect key="frame" x="102.5" y="102.5" width="81" height="81"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="81" id="31f-kf-EGN"/>
+                        <constraint firstAttribute="width" constant="81" id="v6J-X0-OOY"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="LuckyCenterButton"/>
+                    <state key="highlighted" image="LuckyCenterButtonPressed"/>
+                    <connections>
+                        <action selector="startPicker:" destination="iN0-l3-epB" eventType="touchUpInside" id="hhO-R1-you"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Fqa-jJ-4IQ" secondAttribute="trailing" id="808-Vy-2RG"/>
+                <constraint firstItem="iuU-ZT-gCe" firstAttribute="centerX" secondItem="Fqa-jJ-4IQ" secondAttribute="centerX" id="9Yx-pA-YQ3"/>
+                <constraint firstAttribute="trailing" secondItem="Chx-D0-xSo" secondAttribute="trailing" id="JfS-0X-SEQ"/>
+                <constraint firstItem="Fqa-jJ-4IQ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="LAR-hA-Kyc"/>
+                <constraint firstAttribute="bottom" secondItem="Chx-D0-xSo" secondAttribute="bottom" id="YH3-6P-Wf1"/>
+                <constraint firstItem="Fqa-jJ-4IQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZhE-Cz-RyE"/>
+                <constraint firstItem="Chx-D0-xSo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hyk-fS-46e"/>
+                <constraint firstItem="iuU-ZT-gCe" firstAttribute="centerY" secondItem="Fqa-jJ-4IQ" secondAttribute="centerY" id="kIh-Bs-tpf"/>
+                <constraint firstAttribute="bottom" secondItem="Fqa-jJ-4IQ" secondAttribute="bottom" id="vNU-1V-EVp"/>
+                <constraint firstItem="Chx-D0-xSo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vtj-Eh-6CP"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="centerView" destination="Fqa-jJ-4IQ" id="i0P-Q6-0kd"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="-53"/>
+        </view>
+        <view contentMode="scaleToFill" id="49F-oq-ROM">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AId-cw-pxA">
+                    <rect key="frame" x="94" y="166" width="187.5" height="333.5"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AId-cw-pxA" firstAttribute="width" secondItem="49F-oq-ROM" secondAttribute="width" multiplier="0.5" id="7y9-gb-7My"/>
+                <constraint firstItem="AId-cw-pxA" firstAttribute="centerY" secondItem="49F-oq-ROM" secondAttribute="centerY" id="dF1-lg-Dpw"/>
+                <constraint firstItem="AId-cw-pxA" firstAttribute="height" secondItem="49F-oq-ROM" secondAttribute="height" multiplier="0.5" id="pxy-E6-fOc"/>
+                <constraint firstItem="AId-cw-pxA" firstAttribute="centerX" secondItem="49F-oq-ROM" secondAttribute="centerX" id="tNF-oM-emg"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="50" y="238"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LuckyBaseBackground" width="286" height="286"/>
+        <image name="LuckyCenterButton" width="81" height="81"/>
+        <image name="LuckyCenterButtonPressed" width="81" height="81"/>
+        <image name="LuckyRotateWheel" width="286" height="286"/>
+    </resources>
+</document>
